@@ -243,4 +243,3 @@ Iterator.prototype.nextToken = function(regexp) {
 	}
 	return false;
 }
-
