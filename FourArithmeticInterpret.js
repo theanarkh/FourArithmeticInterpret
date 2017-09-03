@@ -1,6 +1,3 @@
-这样的一个解释器几乎没用，不过只是为了学习一下解释器的知识，有空继续学习。
-支持纯变量的解释，解释器第一个参数为纯变量的字符串，第二个参数为解释上下文，也就是变量的值。
-支持四则运算，括号
 
 function Context(map) {
 	this.map = map;
@@ -247,4 +244,3 @@ Iterator.prototype.nextToken = function(regexp) {
 	return false;
 }
 
-new Interpreter('( ((a +b) + (c * a + (a* cc- bx )))) ',{a:1,b:2,c:3,bx:1,cc:2}).run();
